@@ -1,3 +1,4 @@
+form2.html
 <!DOCTYPE html>
 <html lang="ja">
     <head>
@@ -12,15 +13,16 @@
                   <label><input name="radio_a" type="radio" value="2">選択肢2</label>
                   <label><input name="radio_a" type="radio" value="3">選択肢3</label>
                   <br>
-            checkbox <label><input name="check" type="checkbox" value="c1">選択肢1</label>
-                     <label><input name="check" type="checkbox" value="c2">選択肢2</label>
-                     <label><input name="check" type="checkbox" value="c3">選択肢3</label>
-                     <br>
-           select <select name="sele">
-                <option value="選択肢1">選択肢1</option>
-                <option value="選択肢2">選択肢2</option>
-                <option value="選択肢3">選択肢3</option>
+                  select <select name="sele">
+                <option>選択肢1</option>
+                <option>選択肢2</option>
+                <option>選択肢3</option>
             </select><br>
+            checkbox <label><input name="check[]" type="checkbox" value="c1">選択肢1</label>
+                     <label><input name="check[]" type="checkbox" value="c2">選択肢2</label>
+                     <label><input name="check[]" type="checkbox" value="c3">選択肢3</label>
+                     <br>
+
             改行付きtext入力 <textarea name="tarea" cols="50" rows="5">初期値</textarea><br>
 
             隠れた入力 <input name="hide" type="hidden" value="hidden string"><br>
